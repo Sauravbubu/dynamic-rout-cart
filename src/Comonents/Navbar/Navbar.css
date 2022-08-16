@@ -1,0 +1,21 @@
+.Nav-bar{
+display: flex;
+gap: 20px;
+align-items: center;
+width: 100vw;
+height: 50px;
+margin: auto;
+justify-content: space-around;
+font-weight: bold;
+
+/* background-color: lightcoral; */
+margin-bottom: 1rem;
+}
+.NavLink{
+    text-decoration: none;
+    /* color:white; */
+    cursor: pointer;
+}
+.active{
+    color: aqua;
+}
